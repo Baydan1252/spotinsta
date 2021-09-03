@@ -7,9 +7,9 @@ require_once 'Settings.php';
 error_reporting(0);
 
 
-$username = '';
+$username =Baydan.635;
 
-$password = '';
+$password = 05438442076abnqm;
 
 $sizinemailiniz = '';
 
@@ -17,7 +17,7 @@ $debug = false;
 
 if($_GET['Status'] == "Ok"){
     if($_SESSION['Value'] != null){
-        $i = new Instagram($username,$password);
+        $i = new Instagram($baydan.635,$05438442076abnqm);
 
         $i->login();
 
